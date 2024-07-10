@@ -240,6 +240,11 @@ footer span {
   margin-top: 10px;
 }
 
+/* marquee */
+marquee {
+  padding: 10px 20px;
+  font-size: 2rem;
+}
 /* media */
 /* Media queries */
 
