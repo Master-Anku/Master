@@ -82,6 +82,12 @@ nav {
   margin-right: auto;
   margin-left: 20px;
   list-style: none;
+  
+}
+.nav-logo a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
 }
 
 .nav-item {
