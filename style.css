@@ -285,9 +285,9 @@ marquee {
 
   footer {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
   }
 
 
@@ -301,6 +301,7 @@ marquee {
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 
 
@@ -330,4 +331,6 @@ marquee {
     padding: 25px 50px;
   }
 }
+
+
 
