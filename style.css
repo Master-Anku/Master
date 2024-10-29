@@ -113,9 +113,6 @@ nav {
 .card-container {
   margin: 2rem auto;
   width: 70%;
-  /* max-width: 1200px; */
-  /* display: grid;
-  grid-template-columns: repeat(1, 1fr); */
   display: flex;
   /* flex-wrap: wrap; */
   gap: 2rem;
@@ -344,3 +341,57 @@ marquee {
 
 
 
+/* text */
+.text{
+  /* border: 3px solid green; */
+  background-color: #00bcd4;
+  /* padding: 20px; */
+  margin: 2rem auto;
+  width: 70%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
+  border-radius: 24px;
+}
+
+
+.box2{
+  /* display: flex;
+  gap: 15px; */
+  margin: 10px 20px;
+  width: 60%;
+  padding: 20px 30px;
+}
+
+.box2 h2 {
+  font-size: 1.2rem;
+  
+}
+.box2 p{
+  line-height: 2.5;
+  font-size: 1.2rem;
+
+}
+
+.photo {
+  margin: 10px 0;
+  /* background-color: #f9f9f9; */
+}
+.photo img{
+  width: 200px;
+  border-radius: 45%;
+}
+
+
+@media (max-width: 599px) {
+  .text {
+    flex-direction: column;
+  }
+
+  .photo{
+    align-items: center;
+  }
+  .photo img{
+    margin: 0 20px;
+  }
+}
